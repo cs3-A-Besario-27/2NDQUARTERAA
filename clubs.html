@@ -1,0 +1,245 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Extracurricular Activities of PSHS - CRC</title>
+    <link rel="icon" type="image/x-icon" href="tab.ico">
+<style>
+    @import url('https://fonts.googleapis.com/css2?family=Marcellus&display=swap');
+
+    body {
+        font-family: 'Marcellus', sans-serif;
+        margin-bottom: 50px;
+        background-color: #d6edff;
+    }
+
+    .header {
+         text-align: center;
+        margin-bottom: 50px;
+    }
+
+    h1 {
+        display: block;
+        font-size: 2em;
+        margin-top: 8px;
+        font-weight: bold;
+    }
+
+    .container {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+    .card-title {
+        text-align: center;
+        margin-top: 0px;
+        font-weight: bold;
+        color: #0c427a;
+    }
+
+    .card {
+        width: calc(30% - 20px);
+        box-sizing: border-box;
+        margin-right: 20px;
+        margin-bottom: 50px;
+        border: 1px solid #ccc;
+        border-radius: 5px;
+        padding: 20px;
+        box-shadow: 0 2px 5px rgba(0, 0, 0, 0.3);
+        position: relative;
+        overflow: hidden;
+        display: flex;
+        flex-direction: column;
+        background-color: #f9f9f9;
+        border: 3px solid #0c427a;
+        font-family: 'Marcellus', sans-serif;
+        font-size: 20px;
+    }
+
+        .card:hover .card-image {
+            transform: scale(1.02);
+        }
+
+    .card:hover .card-info {
+        opacity: 1;
+        transform: translateY(0);
+    }
+
+    .card:nth-child(3n) {
+        margin-right: 0;
+    }
+
+    .card:hover {
+        opacity: 1;
+    }
+
+    .card:hover .card-info {
+        opacity: 1;
+        transform: translateY(0);
+    }
+
+    .card:visited .card-title {
+        transform: translateY(-50px);
+        opacity: 1;
+    }
+
+    .card:visited .card-info {
+        opacity: 1;
+        transform: translateY(0);
+    }
+
+    .card-image {
+        width: 100%;
+        height: 200px;
+        margin-bottom: 10px;
+        transition: all 0.3s ease;
+        object-fit: cover;
+        border-radius: 10px;
+        border: 2px solid rgb(28, 73, 137);
+    }
+
+    .card-info,
+    .card-info1 {
+        line-height: 1.3;
+        opacity: 0;
+        transform: translateY(20px);
+        transition: all 0.3s ease;
+        flex-grow: 1;
+        text-align: center;
+        margin-top: 0;
+    }
+
+    .card-link {
+        display: block;
+        text-align: center;
+        padding: 10px;
+        background-color: #b3d3f5;
+        color: #fff;
+        text-decoration: none;
+        border-radius: 3px;
+        margin-top: 10px;
+        transition: background-color 0.3s ease;
+        border: 1px solid black;
+    }
+
+    .card-link:hover {
+        background-color: #0056b3;
+    }
+
+    @media (max-width: 768px) {
+        .card {
+        width: 100%;
+        margin-right: 0;
+        }
+    }
+
+    button {
+        background-color: #d4e5fa;
+        font-family: inherit;
+        display: inline-block;
+        width: 15%;
+        height: 4%; 
+        margin: 20px 50px 0 50px;
+        position: relative;
+        overflow: hidden;
+        border: 1px solid black;
+        transition: color .5s;
+        font-size: 20px;
+        z-index: 1;
+        border-radius: 6px;
+        font-weight: 500;
+    }
+
+    button:hover {
+        background-color: #2974c5;
+        color: #b7deff;
+        transition: 0.5s;
+    }
+    </style>
+</head>
+<body>
+<div class="button-container">
+    <a href="index.html">
+        <button>
+            <svg height="16" width="16" xmlns="http://www.w3.org/2000/svg" version="1.1" viewBox="0 0 1024 1024">
+                <path d="M874.690416 495.52477c0 11.2973-9.168824 20.466124-20.466124 20.466124l-604.773963 0 188.083679 188.083679c7.992021 7.992021 7.992021 20.947078 0 28.939099-4.001127 3.990894-9.240455 5.996574-14.46955 5.996574-5.239328 0-10.478655-1.995447-14.479783-5.996574l-223.00912-223.00912c-3.837398-3.837398-5.996574-9.046027-5.996574-14.46955 0-5.433756 2.159176-10.632151 5.996574-14.46955l223.019353-223.029586c7.992021-7.992021 20.957311-7.992021 28.949332 0 7.992021 8.002254 7.992021 20.957311 0 28.949332l-188.073446 188.073446 604.753497 0C865.521592 475.058646 874.690416 484.217237 874.690416 495.52477z"></path>
+            </svg>
+            <span>Go to Home</span>
+        </button>
+    </a>
+</div>
+    
+<div class="header">
+    <h1>Extracurricular Activities</h1>
+</div>
+
+<div class="container">
+    <div class="card">
+        <h3 class="card-title">DIBUHO/ART CLUB</h3>
+        <img class="card-image" src="eueu.png" alt="Dibuho Club">
+        <p class="card-info">Welcome to the Dibuho/Art Club!</p>
+        <p class="card-info">Do you have a burning passion to explore the world of art and let your creativity run free? You've found the right place: the Dibuho/Art Club. Joining the club doesn't just mean you'll be drawing and making art, you'll be making new friends and connections along the way too! Join the Dibuho club now to show your artistic skills!</p>
+        <a class="card-link">Learn More</a>
+    </div>
+
+    <div class="card">
+        <h3 class="card-title">DEBATE CLUB</h3>
+        <img class="card-image" src="dee.jpg" alt="Debate Club">
+        <p class="card-info">Welcome to the Debate Club!</p>
+        <p class="card-info"> Interested in arguing about serious topics?  If you have a voice in yourself that you want to let out, the debate club is the right place for you to let out those voices! If you want to learn how to confidently speak in front of a crowd, then the debate club is the one for you! Joining the debate club can help you build your confidence, make new friends from different grades. So join the debate club now!    </p>
+        <a class="card-link">Learn More</a>
+    </div>
+
+    <div class="card">        
+        <h3 class="card-title">GLEE CLUB</h3>
+        <img class="card-image" src="glee.JPG" alt="Glee Club">
+        <p class="card-info">Welcome to the Glee Club!</p>
+        <p class="card-info">Hey there! Yes you! Are you interested in music and singing? Join our vibrant Glee Club to sail on a musical journey and discover your hidden talent!
+            We don't just sing here; we create harmonies that ring true with passion and creativity. The Glee Club is more than just a place to perform; it's also a place to make long-lasting friendships, gain confidence, and develop a love of music.</p>
+        <a  class="card-link">Learn More</a>
+    </div>
+
+    <div class="card">
+        <h3 class="card-title">ROBOTICS CLUB</h3>
+        <img class="card-image" src="robo.jpg" alt="Robotics Club">
+        <p class="card-info">Welcome to the Robotics Club!</p>
+        <p class="card-info">Are you having fun when it comes to programming and coding? Do you find robots interesting? Join the Robotics Club so you'll be able to learn and build a robot. Whether it's a toy car or a robot in general. Joining this club, you'll not only learn more about electronics,  you'll make and meet new people who have the same interests as you! So what are you waiting for? Join the robotics club now!</p>
+        <a class="card-link">Learn More</a>
+    </div>
+
+    <div class="card">
+        <h3 class="card-title">HOMEMAKERS CLUB</h3>
+        <img class="card-image" src="home.jpg" alt="Homemakers Club">
+        <p class="card-info">Welcome to the Homemakers Club!</p>
+        <p class="card-info">Do you have any domestic skills? Do you know how to cook? Would you like to learn how to crochet or to sew? Join the Home Eco club now! Where you can sell goods that you make and where you can do domestic things like cooking. Along the way you can make friends and companions with similar interests.     </p>
+        <a class="card-link">Learn More</a>
+    </div>
+
+    <div class="card">            
+        <h3 class="card-title">PERFORMING ARTS</h3>
+        <img class="card-image" src="pref.png" alt="Performing Arts">
+        <p class="card-info">Welcome to the Performing Arts!</p>
+        <p class="card-info"> Hello there, performers! Are you ready to transform your passion into something extraordinary? Joining the Performance Arts Club is about more than just learning cool choreography; it's about self-expression, confidence building, and having fun while doing it. Join the Performance Arts, and let's create some magic on the dance floor together!</p>
+        <a class="card-link">Learn More</a>
+    </div>
+
+    <div class="card">            
+        <h3 class="card-title">SPORTS CLUB</h3>
+        <img class="card-image" src="sports.jpg" alt="Sports Club">
+        <p class="card-info">Welcome to the Sports Club!</p>
+        <p class="card-info">Are you interested in sports? Do you want to improve your athletic skills? Are you interested in staying fit? Then the sports club is here for you! With sports varying from volleyball to basketball to frisbee to table tennis. If you join this club you'll be able to find new friends who play the same sport as you. You'll be able to learn sportsmanship and know how to play fair.</p>
+        <a class="card-link">Learn More</a>
+    </div>
+
+    <div class="card">            
+        <h3 class="card-title">RED CROSS YOUTH</h3>
+        <img class="card-image" src="red.jpg" alt="Last Club">
+        <p class="card-info">Welcome to the Red Cross Youth!</p>
+        <p class="card-info">Ever thought about making a real difference? Come join our school's Red Cross Youth Club, where your interests and goals collide. When we work together, we can have a positive influence and meaningfully contribute to our community.</p>
+        <a class="card-link">Learn More</a>
+    </div>
+</div>
+</body>
+</html>
